@@ -1,3 +1,0 @@
-[submodule "lib/submodules/ably-ruby"]
-	path = lib/submodules/ably-ruby
-	url = https://github.com/ably/ably-ruby.git
