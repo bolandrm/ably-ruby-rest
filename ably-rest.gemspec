@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'faraday', '~> 0.12'
+  spec.add_runtime_dependency 'faraday', '> 0.12'
   spec.add_runtime_dependency 'excon', '~> 0.55'
 
   if RUBY_VERSION.match(/^1/)
